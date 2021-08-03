@@ -2,7 +2,7 @@
  
  
     <div class="footer"> 
-    <?php echo 'Copyright'.date('y');?>
+    <?php echo 'Copyright '.date('y');?>
 
     </div>
  </div>
