@@ -1,5 +1,5 @@
 <?php
-$title = "Index";
+$title = "Success";
 require_once 'includes/header.php';
 require_once 'db/conn.php';
 
