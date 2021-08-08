@@ -35,12 +35,15 @@
         }
         public function getAttendees()
         {
-            
                 $sql = "SELECT * FROM attendee"; 
                 $result = $this->db->query($sql);
                 return $result;
-           
         }    
-        
+        public function getSpecialies()
+        {
+                $sql = "SELECT * FROM specialty"; 
+                $result = $this->db->query($sql);
+                return $result;
+        }
     }
 ?>
