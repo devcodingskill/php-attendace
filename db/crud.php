@@ -8,7 +8,7 @@
         {
             $this->db =$conn;
         }
-
+        //insert data
         public function insert($fname,$lname,$dob,$email,$contact,$specialty)
         {
             try {
@@ -33,7 +33,14 @@
             }
 
         }
+        public function getAttendees()
+        {
             
+                $sql = "SELECT * FROM attendee"; 
+                $result = $this->db->query($sql);
+                return $result;
+           
+        }    
         
     }
 ?>
